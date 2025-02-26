@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io("localhost:8000"), []);
+  const socket = useMemo(() => io("https://server-es03wa7v4-aryans-projects-4971f239.vercel.app"), []);
 
   return (
     <SocketContext.Provider value={socket}>
