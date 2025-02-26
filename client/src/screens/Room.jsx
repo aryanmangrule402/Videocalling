@@ -146,7 +146,6 @@ const RoomPage = () => {
             <ReactPlayer playing  unmute height="200px" width="100%" url={remoteStream} />
           </div>
         )}
-        
       </div>
     </div>
   );

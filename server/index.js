@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const io = new Server(8000, {
+const io = new Server("https://server-es03wa7v4-aryans-projects-4971f239.vercel.app", {
   cors: true,
 });
 
